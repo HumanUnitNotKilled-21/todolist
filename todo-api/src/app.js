@@ -23,9 +23,12 @@ app.use((req, res, next) => {
 
 // Routes
 app.use('/api/todos', todoRouter);
+
+
 app.get('/', (req, res) => {
   res.send('Welcome to the ToDo List API!');
 });
+
 
 // Initialize data file
 async function initializeDataFile() {
