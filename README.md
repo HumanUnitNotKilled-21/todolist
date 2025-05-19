@@ -1,6 +1,6 @@
 # Todo List Application
 
-**Course:** CIT 217 - Introduction to Web Development  
+**Course:** CIT 237 - Introduction to Web Development  
 **Authors:**  
 - Keith Andrei Vasquez  
 - Justine Mae Dumaguete  
