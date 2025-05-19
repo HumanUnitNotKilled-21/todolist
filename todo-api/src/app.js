@@ -7,8 +7,6 @@ const todoRouter = require('./routes/todos');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-app.listen(process.env.PORT || 3000);
-
 // Middleware
 app.use(cors({ origin: process.env.CLIENT_URL || '*' }));
 app.use(express.json());
